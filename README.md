@@ -1,15 +1,15 @@
 # Frontend Mentor -  Componente de grade de preço único
 
   <img src="./design/desktop-preview.jpg" alt="preview">
-  
+
 ## Sobre o Desafio
 O desafio consiste em desenvolver um componente de grade de preço único, o mais semelhante possível com a imagem acima. Poderá ser utilizado qualquer tipo de ferramenta.
 
-<hr>
+
 
 ## Layout
 É possivel visualizar todos os layouts(Desktop e Mobile) da aplicação no diretorio ./design
-<hr>
+
 Tecnologias Utilizadas
 
 - HTML5
@@ -26,7 +26,7 @@ Para realizar o deploy da minha aplicação, utilizei uma plataforma gratuita de
 
 Clique <a href="https://single-price-grid-component2022.netlify.app/" target="_blank">aqui</a> para visualizar minha aplicação 🚀
 
-<hr>
+
 
 ## Autor
 ### Lucas do Socorro Silva
