@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif; }
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none; }
+
+li {
+  list-style: none; }
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section {
+  background-color: #e5eff5;
+  max-width: 72rem;
+  height: 55rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 37.5rem) {
+    .section {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-bottom: 2rem;
+      height: 100%; } }
+  .section__col-1 {
+    background-color: #fff;
+    height: 25rem;
+    flex: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; }
+    @media screen and (max-width: 37.5rem) {
+      .section__col-1 {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        height: 30rem; } }
+    .section__col-1 .aside-title {
+      margin-top: 5rem;
+      margin-left: 4rem;
+      margin-right: auto;
+      width: 85%; }
+      @media screen and (max-width: 37.5rem) {
+        .section__col-1 .aside-title {
+          width: 90%;
+          margin-top: 0;
+          margin-right: auto;
+          margin-left: auto; } }
+      .section__col-1 .aside-title__heading {
+        color: #2ab2af;
+        font-size: 3rem;
+        margin-bottom: 1.5rem; }
+        @media screen and (max-width: 37.5rem) {
+          .section__col-1 .aside-title__heading {
+            font-size: 2.5rem; } }
+      .section__col-1 .aside-title__subtitle {
+        color: #c0df34;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem; }
+        @media screen and (max-width: 37.5rem) {
+          .section__col-1 .aside-title__subtitle {
+            font-size: 1.6rem; } }
+      .section__col-1 .aside-title__description {
+        font-size: 1.8rem;
+        line-height: 1.5;
+        color: #98a6bd; }
+        @media screen and (max-width: 37.5rem) {
+          .section__col-1 .aside-title__description {
+            width: 100%;
+            font-size: 1.6rem;
+            line-height: 2; } }
+  .section__col-2 {
+    background-color: #2ab2af;
+    flex: 0 0 50%;
+    height: 30rem;
+    border-bottom-left-radius: 1rem; }
+    @media screen and (max-width: 37.5rem) {
+      .section__col-2 {
+        flex: 0 0 100%;
+        height: 25rem;
+        border-bottom-left-radius: 0; } }
+    .section__col-2 .aside-subscription {
+      display: flex;
+      margin-top: 5rem;
+      align-items: center;
+      flex-direction: column; }
+      @media screen and (max-width: 37.5rem) {
+        .section__col-2 .aside-subscription {
+          margin-top: 2.5rem; } }
+      .section__col-2 .aside-subscription__subscription {
+        color: #e5eff5;
+        margin-bottom: 2rem;
+        margin-right: 6.5rem; }
+      .section__col-2 .aside-subscription__value {
+        color: #e5eff5;
+        margin-bottom: 1.2rem;
+        font-size: 4rem;
+        margin-right: 10rem;
+        display: flex;
+        align-items: center; }
+        .section__col-2 .aside-subscription__value span {
+          color: #f2f2f2;
+          font-size: 1.4rem;
+          margin-left: 1.5rem; }
+      .section__col-2 .aside-subscription__date {
+        color: #e5eff5;
+        margin-right: 2rem; }
+      .section__col-2 .aside-subscription__btn {
+        color: #e5eff5;
+        background-color: #c0df34;
+        width: 75%;
+        height: 5rem;
+        border-radius: 0.5rem;
+        margin-top: 3.5rem;
+        font-weight: 700;
+        font-size: 1.6rem;
+        margin-right: 1rem;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); }
+  .section__col-3 {
+    background-color: #4abebd;
+    flex: 0 0 50%;
+    height: 30rem;
+    border-bottom-right-radius: 1rem; }
+    @media screen and (max-width: 37.5rem) {
+      .section__col-3 {
+        height: 25rem;
+        flex: 0 0 100%;
+        border-bottom-left-radius: 1rem; } }
+    .section__col-3 .aside-tutorial {
+      display: flex;
+      flex-direction: column;
+      margin-left: 4rem; }
+      .section__col-3 .aside-tutorial__title {
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+        color: #e5eff5; }
+        @media screen and (max-width: 37.5rem) {
+          .section__col-3 .aside-tutorial__title {
+            margin-top: 2rem; } }
+      .section__col-3 .aside-tutorial__description {
+        text-align: left !important;
+        width: 70%;
+        line-height: 1.8;
+        color: #e5eff5; }
+        .section__col-3 .aside-tutorial__description h6 {
+          font-weight: 400;
+          font-size: 1.4rem; }
