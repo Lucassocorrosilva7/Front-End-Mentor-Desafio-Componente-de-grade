@@ -24,7 +24,7 @@ Tecnologias Utilizadas
 
 Para realizar o deploy da minha aplicação, utilizei uma plataforma gratuita de hospedagem de sites estáticos chamada Netlify
 
-Clique <a href="https://single-price-grid-component2022.netlify.app/" target="_blank">aqui</a> para visualizar minha aplicação 🚀
+Clique <a href="https://single-price-grid-component-master-2022.netlify.app/" target="_blank">aqui</a> para visualizar minha aplicação 🚀
 
 
 
