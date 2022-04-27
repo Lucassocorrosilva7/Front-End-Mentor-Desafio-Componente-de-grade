@@ -6,7 +6,7 @@ $tertiary-light-gray: hsl(204, 43%, 93%);
 $quaternary-grayish-Blue: hsl(218, 22%, 67%);
 $white: hsl(0, 0%, 95%);
 // Breakpoints
-$sm: 37.5rem;
+$sm: 48.5rem;
 $xl: 144rem;
 
 // Typography
@@ -54,7 +54,7 @@ li{
 .section{
     background-color: $tertiary-light-gray;
     max-width: 72rem;
-    height: 55rem;
+    // width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 3rem;
@@ -63,11 +63,10 @@ li{
     flex-wrap: wrap;
 
     @media screen and (max-width:($sm)) {
+        max-width: 34rem;
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 2rem;
-        height: 100%;
-
     }
 
     &__col-1{
@@ -137,13 +136,12 @@ li{
 
     &__col-2{
         background-color: $primary-byan;
-        flex: 0 0 50%;
+        flex: 50%;
         height: 30rem;
         border-bottom-left-radius: 1rem;
          
         // Mobile 
         @media screen and (max-width:($sm)) {
-           flex: 0 0 100%;
            height: 25rem;
            border-bottom-left-radius: 0;
         }
@@ -200,15 +198,13 @@ li{
     }
     &__col-3{
         background-color: #4abebd;
-        flex:  0 0 50%;
+        flex:  50%;
         height: 30rem;
-        // align-self: flex-end;
         border-bottom-right-radius: 1rem;
 
         // Mobile 
         @media screen and (max-width:($sm)) {
             height: 25rem;
-            flex: 0 0 100%;
             border-bottom-left-radius: 1rem;
 
          }

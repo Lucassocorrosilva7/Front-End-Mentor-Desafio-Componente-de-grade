@@ -30,26 +30,25 @@ li {
 .section {
   background-color: #e5eff5;
   max-width: 72rem;
-  height: 55rem;
   display: flex;
   justify-content: center;
   margin-top: 3rem;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
   flex-wrap: wrap; }
-  @media screen and (max-width: 37.5rem) {
+  @media screen and (max-width: 48.5rem) {
     .section {
+      max-width: 34rem;
       margin-left: 2rem;
       margin-right: 2rem;
-      margin-bottom: 2rem;
-      height: 100%; } }
+      margin-bottom: 2rem; } }
   .section__col-1 {
     background-color: #fff;
     height: 25rem;
     flex: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem; }
-    @media screen and (max-width: 37.5rem) {
+    @media screen and (max-width: 48.5rem) {
       .section__col-1 {
         display: flex;
         align-items: center;
@@ -60,7 +59,7 @@ li {
       margin-left: 4rem;
       margin-right: auto;
       width: 85%; }
-      @media screen and (max-width: 37.5rem) {
+      @media screen and (max-width: 48.5rem) {
         .section__col-1 .aside-title {
           width: 90%;
           margin-top: 0;
@@ -70,33 +69,32 @@ li {
         color: #2ab2af;
         font-size: 3rem;
         margin-bottom: 1.5rem; }
-        @media screen and (max-width: 37.5rem) {
+        @media screen and (max-width: 48.5rem) {
           .section__col-1 .aside-title__heading {
             font-size: 2.5rem; } }
       .section__col-1 .aside-title__subtitle {
         color: #c0df34;
         font-size: 2.5rem;
         margin-bottom: 1.5rem; }
-        @media screen and (max-width: 37.5rem) {
+        @media screen and (max-width: 48.5rem) {
           .section__col-1 .aside-title__subtitle {
             font-size: 1.6rem; } }
       .section__col-1 .aside-title__description {
         font-size: 1.8rem;
         line-height: 1.5;
         color: #98a6bd; }
-        @media screen and (max-width: 37.5rem) {
+        @media screen and (max-width: 48.5rem) {
           .section__col-1 .aside-title__description {
             width: 100%;
             font-size: 1.6rem;
             line-height: 2; } }
   .section__col-2 {
     background-color: #2ab2af;
-    flex: 0 0 50%;
+    flex: 50%;
     height: 30rem;
     border-bottom-left-radius: 1rem; }
-    @media screen and (max-width: 37.5rem) {
+    @media screen and (max-width: 48.5rem) {
       .section__col-2 {
-        flex: 0 0 100%;
         height: 25rem;
         border-bottom-left-radius: 0; } }
     .section__col-2 .aside-subscription {
@@ -104,7 +102,7 @@ li {
       margin-top: 5rem;
       align-items: center;
       flex-direction: column; }
-      @media screen and (max-width: 37.5rem) {
+      @media screen and (max-width: 48.5rem) {
         .section__col-2 .aside-subscription {
           margin-top: 2.5rem; } }
       .section__col-2 .aside-subscription__subscription {
@@ -138,13 +136,12 @@ li {
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); }
   .section__col-3 {
     background-color: #4abebd;
-    flex: 0 0 50%;
+    flex: 50%;
     height: 30rem;
     border-bottom-right-radius: 1rem; }
-    @media screen and (max-width: 37.5rem) {
+    @media screen and (max-width: 48.5rem) {
       .section__col-3 {
         height: 25rem;
-        flex: 0 0 100%;
         border-bottom-left-radius: 1rem; } }
     .section__col-3 .aside-tutorial {
       display: flex;
@@ -154,7 +151,7 @@ li {
         margin-top: 4.5rem;
         margin-bottom: 1rem;
         color: #e5eff5; }
-        @media screen and (max-width: 37.5rem) {
+        @media screen and (max-width: 48.5rem) {
           .section__col-3 .aside-tutorial__title {
             margin-top: 2rem; } }
       .section__col-3 .aside-tutorial__description {
