@@ -6,11 +6,10 @@
 O desafio consiste em desenvolver um componente de grade de preço único, o mais semelhante possível com a imagem acima. Poderá ser utilizado qualquer tipo de ferramenta.
 
 
-
 ## Layout
 É possivel visualizar todos os layouts(Desktop e Mobile) da aplicação no diretorio ./design
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5
 - SEO
@@ -23,6 +22,10 @@ Tecnologias Utilizadas
 - NETLIFY
 
 Para realizar o deploy da minha aplicação, utilizei uma plataforma gratuita de hospedagem de sites estáticos chamada Netlify
+
+## Instalação de pacote & compilando Sass
+npm install node-sass
+npm run compile:sass
 
 Clique <a href="https://single-price-grid-component-master-2022.netlify.app/" target="_blank">aqui</a> para visualizar minha aplicação 🚀
 
