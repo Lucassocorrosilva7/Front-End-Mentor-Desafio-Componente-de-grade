@@ -25,6 +25,7 @@ Para realizar o deploy da minha aplicação, utilizei uma plataforma gratuita de
 
 ## Instalação de pacote & compilando Sass
 npm install node-sass
+<br>
 npm run compile:sass
 
 Clique <a href="https://single-price-grid-component-master-2022.netlify.app/" target="_blank">aqui</a> para visualizar minha aplicação 🚀
